@@ -1,5 +1,5 @@
 /* Adila */
-.menu-toggle {
+/* .menu-toggle {
     display: none;
     flex-direction: column;
     height: 20px;
@@ -48,7 +48,7 @@
 .menu-toggle input:checked ~ span:nth-child(3) {
     opacity: 0;
     transform:scale(0)
-}
+} */
 
 @media screen and (max-width: 1700px) {
     nav ul {
@@ -59,7 +59,7 @@
         flex-wrap: wrap;
       }
       .flex-list li {
-        width: 50%;
+        width: 60%;
       }
 }
 
