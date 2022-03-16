@@ -1,0 +1,292 @@
+/* Adila */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+  overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-around;
+  color: rgb(247, 182, 62);
+  height: 70px;
+  align-items: center;
+  background-color: rgb(0, 0, 0, .6);  
+  flex-wrap: wrap;
+  top: 0;
+  position: sticky;
+  z-index: 10;
+}
+
+nav .logo {
+  letter-spacing: 2px;
+  font-family: 'Pacifico', cursive;
+  display: flex;
+  font-size: 2em;
+  font-weight:600;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  width: 40%;
+  justify-content: space-between;
+  font-family:Arial;
+}
+
+nav ul li a {
+  color: rgb(248, 194, 93);
+  text-decoration: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 10px 15px 10px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+nav ul li a:active, 
+nav ul li a:hover {
+  background-color: rgb(190, 172, 144);
+  justify-content: space-around;  
+  color: cyan;
+  
+}
+
+nav .menu-btn i{
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+
+input[type="checkbox"]{
+  display: none;
+}
+
+main {
+    height: 700px;
+    background-size: cover;
+    background-image: url(https://i.postimg.cc/tg5HBLKx/Landscape-Color.jpg);
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-wrapper {
+    text-align: center;
+    color: white;    
+    /* max-width: 1170px; */
+  width: 100%;
+}
+
+.container {
+    padding: 180px 10px;
+    /* height: 200px; */
+    background-color: rgba(0, 29, 56, 0.53);
+    max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  height: 700px;
+}
+
+.main-content h1 {
+    font-size: 70px;
+    letter-spacing: 5px;
+}
+
+.main-content p {
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.profile{
+	padding: 15px 40px;
+    background-color: #106632;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+}
+
+.btn-main {
+    margin: 25px 0 10px 0;
+
+}
+
+.btn {
+    /* padding: 12px 24px; */
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+    /* background-color: green; */
+    opacity:1;
+    transition: all 0.5s;
+    font-weight: bold;
+}
+
+.lesson-wrapper {
+  /* height: 650px; */
+  padding-bottom: 80px;
+  text-align: center;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.lesson-wrapper img {
+  height: 140px;
+  width: 140px;
+}
+.heading {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  color: #5f5d60;
+}
+.heading h2{
+  font-weight: bolder;
+  color: #d3d3d3;
+  font-size: 35px
+}
+
+
+.lesson {
+  float: left;
+  width: 40%;
+  position: relative;
+  margin: 0 auto;
+ }
+ 
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.anand img {
+width: 140px;
+height: 130px;
+}
+
+.list1 {
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 50px
+}
+
+.list2 {
+  display: flex;
+  margin: 0 auto;
+}
+
+.list2 img {
+  position: relative; 
+  /* left: 20px */
+}
+
+img .arief {
+  left: 10px;
+}
+
+.sss {
+  position: relative; top: 20px
+}
+
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 25px;
+  color: #d6cfc7;
+  /* margin-left: 130px; */
+  font-weight: bold;
+  }
+
+  
+footer{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.flex-list {
+  display: flex;
+}
+
+.flex-list{
+  list-style: none;
+  margin: 0px;
+  /* padding: 60px 0px; */
+  text-align: center;
+  width: 100%;
+}
+
+.flex-list li {
+  flex: auto;
+  height: 80px;
+  line-height: 80px;
+}
+
+.flex-list img{
+  width: 5%;
+}
+
+.footer-wraper{ 
+  /* float: left;  */
+  background-color:#b3aeb5;
+  width: 100%;
+  padding: 0 15px;
+  /* height: 100px; */
+  display: flex;
+}
+
+.margin{
+  padding-top: 20px;
+}
+
+.copyright img{
+	width: 7%;
+ /* float: left; */
+ padding-right: 10px;
+}
+
+.kelompok{
+	/* float: left;  */
+	margin-top: 35px;
+	color: black;
+  letter-spacing: 2px;
+	}
+
+
+.kontak img{
+	width: 50px;
+float: right;
+margin-right: 0%;
+opacity: 60%;
+}
+
+.nomber{
+	float: right;
+	margin-top: 30px;
+	color: black;
+	margin-left: 60%;
+	}
+

@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Diplomata+SC&family=Montserrat&family=Pacifico&family=Ramaraja&display=swap" rel="stylesheet">
+    <title>Website Profile</title>
+</head>
+<body>
+  <!--Adila-->
+  <nav>
+    <div class="logo">
+        <h4>Publisher 23</h4>
+    </div>
+    <input type="checkbox" id="click">
+         <label for="click" class="menu-btn">
+         <i class="fa fa-bars"></i>
+         </label>
+         <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">FAQ</a></li>            
+            <li><a href="#">Log In</a></li>
+         </ul>
+    </div>
+    
+</nav>
+
+    <main class="main-wrapper">
+        <div class="container">
+            <div class="main-content">
+                <h1>Hello! Welcomeback </h1>
+                <p>No one has the ability to do something perfectly, but each person is given a lot of opportunities to do something right.</p>
+            </div>
+            <div class="btn-main">
+                <a href="#see member" class="btn profile">See member</a>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <div class="lesson-wrapper">
+      <!-- <div class="container"> -->
+        <div class="heading">
+          <h2 id= "see member">Meet Our Awesome Team!</h2> 
+        </div>
+
+        <div class ="list1">   
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="androginting.png" title= "Anand Fikri">
+            </div>
+            <p class="txt-contents">Anand Fikri</p>
+          </div>
+
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="anandfikri.png" title= "Andro Ginting">
+            </div>
+            <p class="txt-contents">Andro Ginting</p>
+          </div>
+
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="arindafebryola.png" title ="Adila Anisha">
+            </div>
+            <p class="txt-contents">Adila Anisha</p>
+          </div>
+         </div>
+
+          <div class= "list2">
+            <div class="lesson">
+            <div class="lesson-icon">
+              <div class ="sss"><img src="dilsha.png" title= "Arinda Febryola"></div>
+            </div>
+            <p class="txt-contents">Arinda Febryola</p>
+          </div>
+
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img class="arief" src="ariefpermana.png" title= "Arief Permana">
+              </div>
+              <p class="txt-contents">Arief Permana</p>
+            </div>
+          </div>
+          </div>
+        <!-- </div> -->
+      </div>
+  
+      <!-- footer -->
+  <footer class="footer-wraper">
+    <ul class="flex-list">
+      <li class="li1">
+        <img src="copyright.png">© Kelompok A23
+      </li>
+      <li class="li2">
+        <img src="kontak.png" title="Contact" alt="Kontak"> 
+          CP: +62 84576234235
+      </li>
+    </ul>
+
+    <!-- <div class="margin">
+        <div class="copyright">
+          <img src="copyright.png">
+          <p class="kelompok"> © Kelompok A23</p>
+        </div>
+        <div class="kontak">
+          <img src="kontak.png" title="Contact" alt="Kontak"> 
+          <div class="nomber">CP: +62 84576234235</div>
+        </div>  -->
+      </footer>
+  </body>
+
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle input');
+    const nav = document.querySelector('nav ul');
+
+    menuToggle.addEventListener('click', function (){
+      nav.classList.toggle('slide');
+    });
+  </script>
+
+</html>
