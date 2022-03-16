@@ -11,4 +11,4 @@ Arinda Febryola       -> Main
 
 Anand fikri           -> Footer
 
-Arief Permana         -> Desain Responsif
+Arief Permana         -> Desain Responsive
